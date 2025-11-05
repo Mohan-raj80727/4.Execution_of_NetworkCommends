@@ -33,7 +33,7 @@ This commands includes
 Ping command  
 
 Client 
-```
+```PYTHON
 import socket 
 from pythonping import ping 
 s=socket.socket() 
@@ -48,7 +48,7 @@ while True:
         c.send("Not Found".encode())
 ```
 Server 
-```
+```PYTHON
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
