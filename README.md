@@ -58,7 +58,7 @@ while True:
     print(s.recv(1024).decode())
 ```
 Tranceroute command
-```
+```CMD
 from scapy.all import* 
 target = ["www.google.com"] 
 result, unans = traceroute(target,maxttl=32) 
